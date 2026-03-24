@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fil-rouge-todo"
+version = "0.1.0"
+description = "FastAPI Todo List with JSON persistence"
+authors = ["Robinson <robinson@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+
+[tool.poetry.group.dev.dependencies]
+requests = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
