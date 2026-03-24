@@ -3,7 +3,7 @@ name = "fil-rouge-todo"
 version = "0.1.0"
 description = "FastAPI Todo List with JSON persistence"
 authors = ["Robinson <robinson@example.com>"]
-package-mode = false
+package-mode = true
 
 [tool.poetry.dependencies]
 python = "^3.13"
